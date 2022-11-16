@@ -40,3 +40,17 @@ Create a 'sequencer' that allows you to record BOOT button presses and play them
 inputs: BOOT button, console commands, register read/write commands
 
 outputs: neopixel color, neopixel brightness, data over serial, register read/write commands
+
+
+
+
+## 6.pioscope
+
+(1) modify the PIO/DMA logic analyzer example to record a timestamped trace of an RP2040-ADPS9960 exchange while the BOOT button is pressed
+
+(2) with a partner, connect a second Qt Py to the Stemma Qt bus of an ADPS9960 that's attached to a first Qt Py running the Lab 1 Python code
+
+(3) record a trace of this exchange
+
+<img width="1426" alt="Screen Shot 2022-11-09 at 19 31 56" src="https://user-images.githubusercontent.com/114169032/202098795-ee9cb3fd-48f1-4aad-a023-4ed8e4eca194.png">
+
